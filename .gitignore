@@ -1,0 +1,16 @@
+# Variables de entorno con contraseñas y credenciales sensibles
+.env
+.env.local
+.env.*.local
+
+# Respaldos y dumps de base de datos
+backups/*.sql
+backups/*.dump
+backups/*.tar
+backups/*.gz
+!backups/.gitkeep
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+*.tmp
